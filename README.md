@@ -60,3 +60,9 @@ Repository that allocates all the documentation, dataset, ML Model, FrontEnd, Ba
 
 --------
 
+MLFlow Notes:
+1. pip install mlflow
+2. In terminal move to your MLflow artifact folder, example: "D:\MNA_SWFiles\TC4016_SW\SIP\TC4016_SW_Group_10\models\experiments"
+3. In terminal run the following command:
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root file:///D:/MNA_SWFiles/TC4016_SW/SIP/TC4016_SW_Group_10/models/experiments/ --host 0.0.0.0 --port 5000
+
