@@ -65,4 +65,6 @@ MLFlow Notes:
 2. In terminal move to your MLflow artifact folder, example: "D:\MNA_SWFiles\TC4016_SW\SIP\TC4016_SW_Group_10\models\experiments"
 3. In terminal run the following command:
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root file:///D:/MNA_SWFiles/TC4016_SW/SIP/TC4016_SW_Group_10/models/experiments/ --host 0.0.0.0 --port 5000
+4. Conectarse al Github
+http://127.0.0.1:5000/
 
