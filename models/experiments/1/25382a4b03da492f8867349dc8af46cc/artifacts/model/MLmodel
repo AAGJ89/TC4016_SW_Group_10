@@ -1,0 +1,37 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.17.2
+model_size_bytes: 934
+model_uuid: 55c89b64347c4df1b6ff217524a87d2f
+run_id: 25382a4b03da492f8867349dc8af46cc
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: ndarray
+signature:
+  inputs: '[{"type": "double", "name": "Total_Purchases_Lag1", "required": true},
+    {"type": "double", "name": "Total_Amount_Lag1", "required": true}, {"type": "long",
+    "name": "Month_August", "required": true}, {"type": "long", "name": "Month_December",
+    "required": true}, {"type": "long", "name": "Month_February", "required": true},
+    {"type": "long", "name": "Month_January", "required": true}, {"type": "long",
+    "name": "Month_July", "required": true}, {"type": "long", "name": "Month_June",
+    "required": true}, {"type": "long", "name": "Month_March", "required": true},
+    {"type": "long", "name": "Month_May", "required": true}, {"type": "long", "name":
+    "Month_November", "required": true}, {"type": "long", "name": "Month_October",
+    "required": true}, {"type": "long", "name": "Month_September", "required": true}]'
+  outputs: '[{"type": "double", "name": "Total_Purchases", "required": true}]'
+  params: null
+utc_time_created: '2024-11-09 17:37:25.664422'
