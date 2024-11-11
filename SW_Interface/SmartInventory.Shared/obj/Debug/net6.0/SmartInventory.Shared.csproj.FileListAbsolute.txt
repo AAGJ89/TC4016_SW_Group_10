@@ -1,0 +1,12 @@
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\bin\Debug\net6.0\SmartInventory.Shared.deps.json
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\bin\Debug\net6.0\SmartInventory.Shared.dll
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\bin\Debug\net6.0\SmartInventory.Shared.pdb
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\SmartInventory.Shared.csproj.AssemblyReference.cache
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\SmartInventory.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\SmartInventory.Shared.AssemblyInfoInputs.cache
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\SmartInventory.Shared.AssemblyInfo.cs
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\SmartInventory.Shared.csproj.CoreCompileInputs.cache
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\SmartInventory.Shared.dll
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\refint\SmartInventory.Shared.dll
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\SmartInventory.Shared.pdb
+D:\Temporal\27_oct_2024\Backend\SmartInventory.Shared\obj\Debug\net6.0\ref\SmartInventory.Shared.dll

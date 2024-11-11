@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bwCsngadFhm1dCqohUKwkTQaNZn+mTDYSMY07MFlFuQ=",
+  "Source": "WebAPI_SmartInventory",
+  "BasePath": "_content/WebAPI_SmartInventory",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oWzu/atQUP9HykCdw4CBALXHxYMnTIvskA8WOXjEgwXpfRSXTLEc44Vgn+c1R294/uMw1ibSEHcQgsw4nJj9wg==",
+  "success": true,
+  "projectFilePath": "D:\\Temporal\\27_oct_2024\\Backend\\SmartInventoryWebApp\\SmartInventoryWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julio\\.nuget\\packages\\mongodb.bson\\3.0.0\\mongodb.bson.3.0.0.nupkg.sha512",
+    "C:\\Users\\julio\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\julio\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,150 @@
+﻿@page "/products"
+@using MongoDB.Bson
+@using SmartInventory.Shared
+@using SmartInventoryWebApp.Data.Services
+@using System.Text.Json
+@inject ProductsService ProductsService
+
+<h3>Product Management</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong>Error:</strong> @errorMessage
+    </div>
+}
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Fecha Creacion</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Nombre</td>
+                    <td>@product.Descripcion</td>
+                    <td>@product.Precio</td>
+                    <td>@product.Stock</td>
+                    <td>@product.FechaCreacion.ToShortDateString()</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditProduct(product)">Edit</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteProduct(product.StringId)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>@(isEditing ? "Edit Product" : "Add New Product")</h3>
+    <EditForm Model="@currentProduct" OnValidSubmit="SaveProduct">
+        <DataAnnotationsValidator />
+        <div class="form-group">
+            <label>Nombre:</label>
+            <InputText class="form-control" @bind-Value="currentProduct.Nombre" />
+        </div>
+        <div class="form-group">
+            <label>Descripcion:</label>
+            <InputText class="form-control" @bind-Value="currentProduct.Descripcion" />
+        </div>
+        <div class="form-group">
+            <label>Precio:</label>
+            <InputNumber class="form-control" @bind-Value="currentProduct.Precio" />
+        </div>
+        <div class="form-group">
+            <label>Stock:</label>
+            <InputNumber class="form-control" @bind-Value="currentProduct.Stock" />
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="button" class="btn btn-secondary" @onclick="CancelEdit">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    private List<Products> products = new();
+    private Products currentProduct = new();
+    private bool isLoading = true;
+    private bool isEditing = false;
+    private string errorMessage; // Para almacenar el mensaje de error
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductsService.GetAllAsync();
+        isLoading = false;
+    }
+
+    private async Task SaveProduct()
+    {
+        try
+        {
+            if (isEditing)
+            {
+                await ProductsService.UpdateAsync(currentProduct.StringId.ToString(), currentProduct);
+            }
+            else
+            {
+                var createdProduct = await ProductsService.CreateAsync(currentProduct);
+                products.Add(createdProduct);
+            }
+
+            // Limpiar el formulario y ocultar el mensaje de error si la operación fue exitosa
+            currentProduct = new Products();
+            isEditing = false;
+            errorMessage = null;
+        }
+        catch (Exception ex)
+        {
+            try
+            {
+                var errorContent = ex.Message;
+                using var jsonDoc = JsonDocument.Parse(errorContent);
+                var errorsElement = jsonDoc.RootElement.GetProperty("errors");
+
+                // Recorrer todas las propiedades en "errors" y concatenar los mensajes
+                var allErrors = new List<string>();
+                foreach (var property in errorsElement.EnumerateObject())
+                {
+                    foreach (var error in property.Value.EnumerateArray())
+                    {
+                        allErrors.Add(error.GetString());
+                    }
+                }
+
+                errorMessage = string.Join("\n", allErrors); // Concatenar mensajes con saltos de línea
+            }
+            catch
+            {
+                errorMessage = "Ocurrió un error: " + ex.Message;
+            }
+        }
+    }
+
+    private void EditProduct(Products product)
+    {
+        currentProduct = product;
+        isEditing = true;
+    }
+
+    private async Task DeleteProduct(String StringId)
+    {
+        await ProductsService.DeleteAsync(StringId);
+        products.RemoveAll(p => p.StringId == StringId);
+    }
+
+    private void CancelEdit()
+    {
+        currentProduct = new Products();
+        isEditing = false;
+    }
+}
