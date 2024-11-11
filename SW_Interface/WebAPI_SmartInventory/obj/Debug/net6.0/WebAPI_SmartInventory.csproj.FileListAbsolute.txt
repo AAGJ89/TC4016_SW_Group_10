@@ -1,0 +1,72 @@
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\appsettings.Development.json
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\appsettings.json
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\WebAPI_SmartInventory.exe
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\DnsClient.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\SharpCompress.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Snappier.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\ZstdSharp.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.csproj.AssemblyReference.cache
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.AssemblyInfoInputs.cache
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.AssemblyInfo.cs
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.csproj.CoreCompileInputs.cache
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.MvcApplicationPartsAssemblyInfo.cs
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.MvcApplicationPartsAssemblyInfo.cache
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets.build.json
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets.development.json
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets\msbuild.WebAPI_SmartInventory.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets\msbuild.build.WebAPI_SmartInventory.props
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI_SmartInventory.props
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI_SmartInventory.props
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\scopedcss\bundle\WebAPI_SmartInventory.styles.css
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_S.13523662.Up2Date
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\refint\WebAPI_SmartInventory.dll
+D:\Smartware\Google Drive\Documentos\Tec de Monterrey\MNA\ANALISIS Y DISEÑO DE SOFTWARE\SEMANA 7\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.pdb
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\appsettings.Development.json
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\appsettings.json
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\WebAPI_SmartInventory.exe
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\WebAPI_SmartInventory.deps.json
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\WebAPI_SmartInventory.runtimeconfig.json
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\WebAPI_SmartInventory.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\WebAPI_SmartInventory.pdb
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\DnsClient.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\SharpCompress.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Snappier.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\ZstdSharp.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.csproj.AssemblyReference.cache
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.AssemblyInfoInputs.cache
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.AssemblyInfo.cs
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.csproj.CoreCompileInputs.cache
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.MvcApplicationPartsAssemblyInfo.cs
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.MvcApplicationPartsAssemblyInfo.cache
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets.build.json
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets.development.json
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets\msbuild.WebAPI_SmartInventory.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets\msbuild.build.WebAPI_SmartInventory.props
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI_SmartInventory.props
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI_SmartInventory.props
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\scopedcss\bundle\WebAPI_SmartInventory.styles.css
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_S.13523662.Up2Date
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\refint\WebAPI_SmartInventory.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.pdb
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\WebAPI_SmartInventory.genruntimeconfig.cache
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\obj\Debug\net6.0\ref\WebAPI_SmartInventory.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\SmartInventory.Shared.dll
+D:\Temporal\27_oct_2024\Backend\WebAPI_SmartInventory\bin\Debug\net6.0\SmartInventory.Shared.pdb

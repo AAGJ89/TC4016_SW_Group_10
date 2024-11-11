@@ -1,0 +1,143 @@
+﻿@page "/users"
+@using MongoDB.Bson
+@using SmartInventory.Shared
+@using SmartInventoryWebApp.Data.Services
+@using System.Text.Json
+@inject UsuariosService UsuariosService
+
+<h3>Gestión de Usuarios</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong>Error:</strong> @errorMessage
+    </div>
+}
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Activo</th>
+                <th>Fecha Creación</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in usuarios)
+            {
+                <tr>
+                    <td>@usuario.Username</td>
+                    <td>@usuario.Email</td>
+                    <td>@usuario.Activo</td>
+                    <td>@usuario.FechaCreacion.ToShortDateString()</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditUsuario(usuario)">Edit</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteUsuario(usuario.StringId.ToString())">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>@(isEditing ? "Edit Usuario" : "Add New Usuario")</h3>
+    <EditForm Model="@currentUsuario" OnValidSubmit="SaveUsuario">
+        <DataAnnotationsValidator />
+        <div class="form-group">
+            <label>Username:</label>
+            <InputText class="form-control" @bind-Value="currentUsuario.Username" />
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <InputText class="form-control" @bind-Value="currentUsuario.Email" />
+        </div>
+        <div class="form-group">
+            <label>Activo:</label>
+            <InputCheckbox class="form-check-input" @bind-Value="currentUsuario.Activo" />
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="button" class="btn btn-secondary" @onclick="CancelEdit">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    private List<Usuarios> usuarios = new();
+    private Usuarios currentUsuario = new();
+    private bool isLoading = true;
+    private bool isEditing = false;
+    private string errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        usuarios = await UsuariosService.GetAllAsync();
+        isLoading = false;
+    }
+
+    private async Task SaveUsuario()
+    {
+        try
+        {
+            if (isEditing)
+            {
+                await UsuariosService.UpdateAsync(currentUsuario.StringId.ToString(), currentUsuario);
+            }
+            else
+            {
+                var createdUsuario = await UsuariosService.CreateAsync(currentUsuario);
+                usuarios.Add(createdUsuario);
+            }
+
+            currentUsuario = new Usuarios();
+            isEditing = false;
+            errorMessage = null;
+        }
+        catch (Exception ex)
+        {
+            try
+            {
+                var errorContent = ex.Message;
+                using var jsonDoc = JsonDocument.Parse(errorContent);
+                var errorsElement = jsonDoc.RootElement.GetProperty("errors");
+
+                var allErrors = new List<string>();
+                foreach (var property in errorsElement.EnumerateObject())
+                {
+                    foreach (var error in property.Value.EnumerateArray())
+                    {
+                        allErrors.Add(error.GetString());
+                    }
+                }
+
+                errorMessage = string.Join("\n", allErrors);
+            }
+            catch
+            {
+                errorMessage = "Ocurrió un error: " + ex.Message;
+            }
+        }
+    }
+
+    private void EditUsuario(Usuarios usuario)
+    {
+        currentUsuario = usuario;
+        isEditing = true;
+    }
+
+    private async Task DeleteUsuario(string id)
+    {
+        await UsuariosService.DeleteAsync(id);
+        usuarios.RemoveAll(u => u.Id.ToString() == id);
+    }
+
+    private void CancelEdit()
+    {
+        currentUsuario = new Usuarios();
+        isEditing = false;
+    }
+}
